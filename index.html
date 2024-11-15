@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi bitacora</title>
+    <link rel="stylesheet" href="estilo.css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    \
+    <link href="https://fonts.cdnfonts.com/css/copperplate-gothic-light" rel="stylesheet">
+
+</head>
+<main>
+
+    <body>
+        <header>
+
+            <img src="imagenes/imagen logo.png" alt="">
+        </header>
+        <nav>
+
+            <a href="#tema1">Formularios en Html</a><a href="#tema2">Tablas</a><a href="#tema3">Especificidad</a><a
+                href="#tema4">After y Before</a>
+            <a href="#tema5"> Color en la web</a><a href="#tema6">Header</a> <a href="#tema7">Footer</a>
+
+        </nav>
+        <section>
+            <div class="arriba">
+                <h1 id="tema1">Formularios en Html</h1>
+            </div>
+
+            <div class="izquierda">
+                <h2><b>Ideas principales</b></h2>
+                <div class="texto1">
+                    <p>
+                    <ul>Los formularios o campos de contacto se utilizan para recopilar información personal y útil del
+                        usuario para la página o sitio web. </ul>
+                    </p>
+                    <p>
+                    <ul>Permite al usuario comunicarse con la interfaz.</ul>
+                    </p>
+                    <p>
+                    <ul>Utiliza diferentes elementos como form,input,textarea,fieldset, legend y label. </ul>
+                    </p>
+                    <p>
+                    <ul>En el elemento input utiliza el atributo type para definir el tipo.</ul>
+                    </p>
+                    <p>
+                    <ul>Se utliza el lenguaje php para procesar la información que se recopiló en el campo de contacto
+                        en el servidor.</ul>
+                    </p>
+                </div>
+            </div>
+
+            <div class="derecha">
+                <h2><b>Apuntes</b></h2>
+                <div class="texto2">
+                    <p>El elemento form define un formulario que se utliza para recopilar información que el usuario
+                        escribe. </p>
+                    <p>El elemento input es el que permite al usuario escribir en el campo de contacto.</p>
+                    <p>El atributo type tiene diferentes opciones: <br> text, submit,mail, password,date,tel,
+                        reset,number,url,search,range,color,file,button etc.</p>
+                    <p>El elemento label representa el título en una interfaz de usuario y ese título se puede asociar
+                        con un control de formulario específico por ejemplo: for:.</p>
+                    <p>El elemento textarea se utiliza para escribir un texto no limitado.</p>
+                    <p>El elemento fieldset se usa para agrupar datos relacionados en un formulario y el elemento legend
+                        para definir un titulo para el elemento fieldset. </p>
+                    <div class="imagen">
+                        <img src="imagenes/img 1.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="abajo">
+                <h2>Resumen</h2>
+                <div class="texto3">
+
+                    <p>
+                        Los formularios, campos o zonas de contacto en páginas web permite recopilar información sobre
+                        el usuario, asi como también permite que haya una comunicación interativa entre el usuario y
+                        la interfaz. Para procesar y guardar la informacion ya recopilada en un servidor se necesita
+                        crear un archivo php y
+                        este se debe ligar a un archivo html mediante un elemento form en donde se crea el
+                        formulario. En html también se utilizan elementos como: fieldset,legend,input,textarea,label y
+                        value para crear los campos en donde el usuario podra responder el formulario.
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+        <section>
+            <div class="arriba">
+                <h1 id="tema2">Tablas</h1>
+            </div>
+
+            <div class="izquierda">
+                <h2>Ideas principales</h2>
+                <div class="texto1">
+                    <p>
+                    <ul>Una tabla es un conjunto estructurado de datos distribuidos en filas y columnas.</ul>
+                    </p>
+                    <p>
+                    <ul>Las tablas (tables) en html nos permiten organizar los datos en filas y columnas. </ul>
+                    </p>
+                    <p>
+                    <ul>Una tabla en html consta de celdas de tabla dentro de filas y columnas.</ul>
+                    </p>
+                    <p>
+                    <ul>Los elementos de una tabla (table) en html son los siguientes: thead,th,tbody,tr,td ,caption y
+                        tfoot. </ul>
+                    </p>
+                    <p>
+                    <ul>Se utiliza los atributos colspan y rowspan para indicar el número de columnas y renglones que
+                        ocupará una celda en una tabla. </ul>
+                    </p>
+                </div>
+            </div>
+
+            <div class="derecha">
+                <h2>Apuntes</h2>
+                <div class="texto2">
+
+                    <p>Una tabla permite buscar con rápidez y facilidad valores entre diferentes tipos de datos que
+                        indiquen algún tipo de conexión.</p>
+                    <p> El elemento thead es el encabezado de la tabla.</p>
+                    <p>El elemento th es la celda del encabezado de la tabla.</p>
+                    <p>El elemento tbody es el cuerpo de la tabla.</p>
+                    <p>El elemento tr es el renglón de la tabla. </p>
+                    <p>El elemento td son las celdas de datos.</p>
+                    <p>El elemento caption es usado para insertar captions (debe estar inmediatamente después de la
+                        etiqueta table). </p>
+                    <p>Y por último el elemento tfoot es el footer o pie de la tabla.</p>
+                    <div class="imagen">
+                        <img src="imagenes/img 2.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="abajo">
+                <h2>Resumen</h2>
+                <div class="texto3">
+
+                    <p>
+                        Las tablas en la web y en general, permiten estructurar de forma organizada un conjunto de datos
+                        que indiquen algún tipo de conexión entre si distribuidos en filas y columnas. En html se
+                        utilizan la etiqueta < table> para crear tablas, anteriormente
+                            (antes de la creación de CSS) se utilizaba esto para posicionar los elementos, actualmente
+                            esto ya no se realiza.
+                            La etiqueta < table> tiene elementos que permiten estructurar las tablas.
+                    </p>
+                </div>
+            </div>
+
+        </section>
+        <section>
+            <div class="arriba">
+                <h1 id="tema3">Especificidad</h1>
+            </div>
+
+            <div class="izquierda">
+                <h2>Ideas principales</h2>
+                <div class="texto1">
+                    <p>
+                    <ul>La especificidad es el medio en donde los navegadores definiran que valores de las propiedades
+                        CSS son mas relevantes y por lo tanto se aplicaran.</ul>
+                    </p>
+                    <p>
+                    <ul>La especificidad solo se aplica cuando un mismo elemento es el objetivo de varias declaraciones.
+                    </ul>
+                    </p>
+                    <p>
+                    <ul>Cuando varias declaraciones tienen la misma especificidad, la última declaración encontrada en
+                        CSS se aplica al elemento.</ul>
+                    </p>
+                    <p>
+                    <ul>Dependiendo del selector de especificidad va ser el que se muestre en el navegador.</ul>
+                    </p>
+                    <p>
+                    <ul>Hay cuatro categorias que definen el nivel de especificidad de un selector. </ul>
+                    </p>
+                </div>
+            </div>
+
+            <div class="derecha">
+                <h2>Apuntes</h2>
+                <div class="texto2">
+
+                    <p>En la jerarquia de especificidad cada selector tiene su lugar en ella.</p>
+                    <p>En el primer nivel de esta jerarquia se encuentran los estilos inline o estilos en linea en donde
+                        se adjunta directamente el elemento en donde se va diseñar.</p>
+                    <p> En el segundo nivel se encuentra el atributo id, este es un indicador para los elementos de la
+                        pagina, como #navbar.
+                    </p>
+                    En el tercer nivel se encuentran las clases, atributos y pseudo-clases como hover:, focus etc.
+                    <p>
+                        Y por último se encuentran los elementos y pseudo-elementos como h1, div, :before y :after.
+                    </p>
+                    <p>Se utiliza la regla !important cuando se quiere corregir algo rápido en una declaración de
+                        estilo.</p>
+                    <div class="imagen">
+                        <img src="imagenes/img 3.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="abajo">
+                <h2>Resumen</h2>
+                <div class="texto3">
+
+                    <p>La especificidad en el CSS es el medio donde los navegadores deciden aplicar o no los diferentes
+                        valores de las propiedades de CSS segun la relevancia que crean. Esto solo se aplica cuando <br> un mismo elemento
+                         tiene varias declaraciones de valores. La especificidad tiene un jerarquia que se divide en cuatro categorias de selectores.
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section>
+            <div class="arriba">
+                <h1 id="tema4">After y Before</h1>
+            </div>
+
+            <div class="izquierda">
+                <h2>Ideas principales</h2>
+                <div class="texto1">
+                    <p>
+                    <ul>Son pseudo elementos que permiten insertar contenido desde CSS sin tener que estar en el html.</ul>
+                    </p>
+                    <p>
+                    <ul>Se debe usar la propiedad de contenido (content) para especificar el contenido para insertar.</ul>
+                    </p>
+                    <p>
+                    <ul>El selector :after inserta algo despues del contenido de cada uno de los elementos seleccionados.</ul>
+                    </p>
+                    <p>
+                    <ul>El selector before: inserta algo antes del contenido de cada uno de los elementos seleccionados.</ul>
+                    </p>
+                </div>
+            </div>
+
+            <div class="derecha">
+                <h2>Apuntes</h2>
+                <div class="texto2">
+
+
+                    <p>El valor para la propiedad de contenido (content) puede ser:  
+                    </p>
+                    <p>
+                        Una cadena de caracteres: content:"texto";-Los caracteres especiales deben estar especialmente codificados como una entidad Unicode.
+                    </p>
+                    <p>Una imagen: content: url(image.jpg);- La imagen se inserta en sus dimensiones exactas y no se puede cambiar de tamaño.</p>
+                    <p> Nada: content:"";-Util para insertar formas y lograr crear figuras.</p>
+                    <div class="imagen">
+                        <img src="imagenes/img 4.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="abajo">
+                <h2>Resumen</h2>
+                <div class="texto3">
+
+                    <p> After y before son pseudo-elementos que permiten agregar contenido extra a un proyecto web por medio de CSS sin la necesidad de utlizar Html.
+                        Para agregar ese contenido se utiliza la propiedad "Content" para especificar que contenido se va agregar y dentro de este se usa el selector before:, para insertar algo antes del 
+                        contenido de cada uno de los elementos seleccionado y el selector :after para inserta algo despues del contenido de cada uno de los elementos seleccionados
+                    </p>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section>
+            <div class="arriba">
+                <h1 id="tema5">Color en la web</h1>
+            </div>
+
+            <div class="izquierda">
+                <h2>Ideas principales</h2>
+                <div class="texto1">
+                    <p>
+                    <ul>En la web se utiliza el formato RGB.</ul>
+                    </p>
+                    <p>
+                    <ul>En CSS el RGB tiene una escala de 0 a 255 pixeles en donde 0 es negro y 255 es blanco.</ul>
+                    </p>
+                        <p>
+                        <ul>Hay 4 formas distintas de representar el color:</ul>
+                        </p>
+                        <p>
+                        <ul>Keywords (palabras clave): Nombre del color.
+                        </ul>
+                        </p>
+
+                        <p>
+                        <ul>Hexadecimal: es un código de 6 símbolos compuesto por hasta tres elementos de 2 símbolos. <br>
+                            El código se escribe mediante una fórmula que convierte cada valor en un código alfanumérico único de 2 dígitos.</ul>
+                        </p>
+                        <p>
+                            <ul>
+                                HSL:define el color en términos de sus componentes constituyentes: matiz, saturación y luminosidad.
+                            </ul>
+                        </p>
+                        <p>
+                        <ul>Canal alfa (RGBA y HSLA): actúa como una máscara de transparencia que permite, de forma virtual, 
+                            componer imágenes o fondos opacos con imágenes con un cierto grado de transparencia</ul>
+                        </p>
+
+                </div>
+            </div>
+
+            <div class="derecha">
+                <h2>Apuntes</h2>
+                <div class="texto2">
+
+                    <p>Al crear una pagina o sitio web se debe identificar el publico objetivo para asi utilizar el color de acuerdo a eso, ya que el color tiene un significado e interpretacion en la web. </p>
+                    <p>La armonias de colores y el equilibrio hace que un proyecto sea mas o menos efectivo.</p>
+                    <p>Se debe elegir una paleta de colores y usarla en todo el sitio, de esta manera se le da uniformidad y sentido de unidad al sitio web.</p>
+                    <p>El contraste de color es un manera de definir la paleta de colores.</p>
+                    <p>No se deben de utlizar demasiados colores diferentes, con dos o tres es suficiente.</p>
+                    <div class="imagen">
+                        <img src="imagenes/img 5.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="abajo">
+                <h2>Resumen</h2>
+                <div class="texto3">
+
+                    <p>El color en la web es una característica muy importante que se debe tomar en cuenta al trabajar en un proyecto web, 
+                        ya que esto define si el usuario va querer estar en el sitio el tiempo suficiente para ver el contenido. El formato de color para la web es RGB 
+                        y este tiene 4 formas distintas de representar el color: Keywords,Hexadecimales, HSL y el canal alfa (RGBA y HSLA).
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+        <section>
+            <div class="arriba">
+                <h1 id="tema6">Header</h1>
+            </div>
+
+            <div class="izquierda">
+                <h2>Ideas principales</h2>
+                <div class="texto1">
+                    <p>
+                    <ul>El header es una de las partes más importantes en una página web, pues es el elemento que los usuarios
+                         visualizan en primer lugar cuando llegan al proyecto.</ul>
+                    </p>
+                    <p>
+                    <ul>Por lo tanto, la cabecera de la web debe ser ordenada y limpia para que pueda ser visualizada con un solo vistazo y no de lugar a confusion.</ul>
+                    </p>
+                    <p>
+                    <ul>El header es un espacio generico que tendra el mismo diseño en todas las paginas del sitio web.</ul>
+                    </p>
+                    <p>
+                    <ul>Los elementos que pueden formar parte del header, van a depender de los objetivos y del tipo de sitio web.</ul>
+                    </p>
+                </div>
+            </div>
+
+            <div class="derecha">
+                <h2>Apuntes</h2>
+                <div class="texto2">
+
+                    <p>Algunos de los elementos que se pueden agregar al header son los siguientes: </p>
+                    <p>Logotipo (obligatorio):Sirve como guia visual para el usuario y permite reforzar la imagen de la marca. </p>
+                    <p>Nav o menu: Permite al usuario la navegacion entre distintas secciones.</p>
+                    <p>Buscador: Este se debe de ubicar en la parte superior derecha y puede ser representado mediante iconos.</p>
+                    <p>Datos de contacto: Estos se pueden incluir solamente si los datos requeridos son pocos, por ejemplo, un numero de telefono o un email.</p>
+                    <p>Redes sociales: Pueden representarse mediante iconos. </p>
+                    <p>Botones destacados: Permiten enfatizar un servicio.</p>
+                    <div class="imagen">
+                        <img src="imagenes/img 6.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="abajo">
+                <h2>Resumen</h2>
+                <div class="texto3">
+
+                    <p>El header es una parte importante en una pagina web, ya que es lo primero que los usuarios ven cuando entran en ella.
+                         Existen ciertos elementos que pueden ser agregados al header con ciertos criterios y todos ellos pueden agregarse de forma opcional excepto el logotipo,
+                          ya que es la forma en la que los usuarios pueden reconocer la pagina y darle imagen a la marca.</p>
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <section>
+            <div class="arriba">
+                <h1 id="tema7">Footer</h1>
+            </div>
+
+            <div class="izquierda">
+                <h2>Ideas principales</h2>
+                <div class="texto1">
+                    <p>
+                    <ul>El footer o el pie de pagina es una seccion olvidada en muchos proyectos web, 
+                        pero si es bien diseñado, puede ser muy util y efectivo.</ul>
+                    </p>
+                    <p>
+                    <ul>El footer es un espacio generico que suele tener el mismo diseño en todas las paginas de un sitio web.</ul>
+                    </p>
+                    <p>
+                    <ul>Planificar cada uno de los elementos que se van a incluir en el footer es parte del proceso de diseño de un proyecto web.</ul>
+                    </p>
+                 
+                </div>
+            </div>
+
+            <div class="derecha">
+                <h2>Apuntes</h2>
+                <div class="texto2">
+
+                    <p>Asi se establecen los elementos que se van a mostrar en funcion de los objetivos y de la estrategia de marketing: </p>
+                    <p>Texto legales (obligatorio):Son la politica de privacidad y el aviso legal.</p>
+                    <p>Cookies:Debe de aparecer en forma de barra o mensaje.</p>
+                    <p>Redes sociales:Permiten una via de contacto directa entre la marca y las visitas de la web.</p>
+                    <p>Copyright:Es el credito al diseñador y los autores del material grafico. </p>
+                    <p>Sitemap:Informan que archivos del sitio son importantes para el autor o incluyen datos importantes sobre ellos.</p>
+                    <div class="imagen">
+                        <img src="imagenes/img 7.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="abajo">
+                <h2>Resumen</h2>
+                <div class="texto3">
+
+                    <p>El footer es una seccion olvidada cuando se visita una pagina web pero puede ser tambien muy util y efectivo si se incluyen datos como:
+                        Textos legales, Cookies y redes sociales, copyright, sitemap, etc. Estos datos pueden ser opcionales a excepcion de los textos legales.
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+    </body>
+    <footer>
+
+    </footer>
+</main>
+
+</html>
